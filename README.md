@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 09-08-2026
+**Today's Work:**
+- Created feature/session_2 branch from develop.
+- Solved all 5 Category A class practice problems in string.class_problems:
+  - Problem 1: Vowel and consonant counter using charAt() loop while ignoring whitespace.
+  - Problem 2: CSV student record parser with field count validation.
+  - Problem 3: Case-insensitive file extension validator using lastIndexOf('.') and substring().
+  - Problem 4: Phone number validator and StringBuilder masking (XXXXXX-1234).
+  - Problem 5: Bank transaction reference generator and 14-character validator without regex.
+- Completed all 5 assignment problems in string.assigment_problems:
+  - 4-digit ATM pin validator using length().
+  - Word reversal encoder reversing each word with StringBuilder.
+  - Product inventory CSV line parser and field count validation.
+  - ISBN code normalizer and 13-character validator without regex.
+  - Stop word filter and word frequency counter using HashMap.
+
+**Next Session Plan:**
+- Start with OOP concepts, classes, objects, and constructors in Session 3.
+
+**Issues Faced:**
+- Stripping punctuation properly before counting frequencies was tricky, solved using replace().
+
+---
+
 ## Date: 03-08-2026
 **Today's Work:**
 - Set up github repo Step_semester_3 and created develop and feature/session_1 branches.
