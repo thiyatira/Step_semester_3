@@ -1,5 +1,24 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 27-08-2026
+**Today's Work:**
+- Created feature/session_3 branch from develop.
+- Solved class problems for BankAccount and StudentGrade evaluation.
+- Solved OOP homework problems F1 to F5 in oop.assigment_problems:
+  - F1: Converted procedural library code to BookIssue class with instance methods and static total fine method.
+  - F2: Extended Employee class with ManagerEmployee and InternEmployee without touching base class, used instanceof.
+  - F3: Handled null parking slots safely in ParkingSlot allotment to avoid NullPointerException.
+  - F4: Found and fixed static variables bug in LibraryMember so member details are not overwritten.
+  - F5: Built HR and parking capstone mini system connecting employee objects and parking slot objects.
+
+**Next Session Plan:**
+- Practice constructor chaining (this), keyword modifiers, and batch processing in Session 4.
+
+**Issues Faced:**
+- Understood why static utility methods operating over object arrays shouldn't be instance methods and why object references don't copy objects.
+
+---
+
 ## Date: 09-08-2026
 **Today's Work:**
 - Created feature/session_2 branch from develop.
