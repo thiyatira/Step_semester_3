@@ -1,5 +1,24 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 30-08-2026
+**Today's Work:**
+- Created feature/session_4 branch from develop.
+- Solved class problems on vehicle rental inheritance and payment transactions with final methods.
+- Completed all Category A assignment problems in advanced_oop.assigment_problems:
+  - Problem 1: FoodOrder constructor validation against blank input, duplicate delivery alert, and batch processor.
+  - Problem 2: DeliverySlot constructor chaining using this(orderId, "ASAP") and peak hour checking.
+  - Problem 3: Canteen ranking engine with compareTo tiebreaking and manual insertion sort.
+  - Problem 4: SurgeFeeCalculator with final methods, tiered percentage rates, and minimum floor.
+  - Problem 5: DeliveryAccount batch reconciliation with static block, instanceof check for premium 50% discount, and null skipping.
+
+**Next Session Plan:**
+- Review all 4 weeks of assignments and practice for upcoming lab evaluation.
+
+**Issues Faced:**
+- Surge fee floor calculation took some time to understand that floor only applies when order is actually delayed, not when delay is 0.
+
+---
+
 ## Date: 27-08-2026
 **Today's Work:**
 - Created feature/session_3 branch from develop.
