@@ -1,5 +1,27 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 06-09-2026
+**Today's Work:**
+- Created feature/session_5 branch from develop.
+- Solved all 5 Category A class practice problems in encapsulation.class_problems:
+  - Problems 1 & 2: AccessRuleEngine static visibility linter across contexts (same class/package, different package, cross-package subclass) and PatientRecord constructor validation.
+  - Problem 3: PatientVitals encapsulation guard with silent rejection of impossible readings and defensive copying.
+  - Problem 4: PatientProfile JavaBean with chained constructors, write-once ID, and write-only locker PIN.
+  - Problem 5: DischargeSummary immutable legal document with medication format validation, with-mutator, and nightly batch reconciliation ledger.
+- Completed all Category A assignment problems in encapsulation.assigment_problems:
+  - Problems 1 & 2: AccessChecker grouped by modifier and LibraryMember constructor validation.
+  - Problem 3: BookInventory circulation guard enforcing 0 <= copiesAvailable <= copiesTotal bounds.
+  - Problem 4: LibraryMemberProfile JavaBean with chained constructors, write-once ID, and write-only security answer.
+  - Problem 5: LoanReceipt immutable record with BK-\d{3} validation, withCorrectedBookId, and nightly circulation ledger.
+
+**Next Session Plan:**
+- Prepare for mid-semester evaluations and review OOP hierarchy designs.
+
+**Issues Faced:**
+- Understanding cross-package protected reach: access depends strictly on the declared compile-time reference type rather than runtime object identity.
+
+---
+
 ## Date: 30-08-2026
 **Today's Work:**
 - Created feature/session_4 branch from develop.
