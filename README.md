@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 13-09-2026
+**Today's Work:**
+- Created feature/session_6 branch from develop.
+- Solved all 5 Category A class practice problems in inheritance_polymorphism.class_problems:
+  - Problem 1: EventTicket base class with constructor validation, WorkshopTicket single-inheritance specialization, and batch attendee ID registration.
+  - Problem 2: PremiumWorkshopTicket multilevel inheritance and HackathonTicket hierarchical branching with polymorphic balance summation.
+  - Problem 3: WorkshopTicket late-fee penalty override calling super with doubled amount and defensive copying audit trail.
+  - Problem 4: Polymorphic batch ticket announcement and guarded downcasting using instanceof to access workshop track.
+  - Problem 5: Static ticket ID issuance, char-by-char promo code validator without regex, overloaded payment methods, and null-safe nightly settlement.
+- Completed all Category A assignment problems in inheritance_polymorphism.assigment_problems:
+  - Problem 1: RaceEntry base class constructor validation, RunnerEntry single-inheritance child, and batch bib registration.
+  - Problem 2: EliteRunnerEntry multilevel inheritance and RelayTeamEntry hierarchical inheritance with polymorphic total balance computation.
+  - Problem 3: RunnerEntry late-withdrawal penalty override calling super with doubled rate and immutable audit history.
+  - Problem 4: Race-day announcer board with StringBuilder polymorphism and guarded downcasting to RelayTeamEntry team size.
+  - Problem 5: Race-wide static bib counter, char-by-char discount code format validator, overloaded pay methods, and null-tolerant settlement engine.
+
+**Next Session Plan:**
+- Explore abstraction, abstract classes vs interfaces, and multiple interface implementation in Session 7.
+
+**Issues Faced:**
+- Distinguishing between IS-A inheritance hierarchy and CAN-DO interface capabilities; ensured downcasting is safely guarded with instanceof before accessing subclass-specific members.
+
+---
+
 ## Date: 06-09-2026
 **Today's Work:**
 - Created feature/session_5 branch from develop.
