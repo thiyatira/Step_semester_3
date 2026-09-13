@@ -1,0 +1,20 @@
+package inheritance_polymorphism.assigment_problems;
+
+// EliteRunnerEntry extends RunnerEntry with sponsor bonus details.
+public class EliteRunnerEntry extends RunnerEntry {
+    private double sponsorBonus;
+
+    public EliteRunnerEntry(String bibNumber, double entryFee, String category, double sponsorBonus) {
+        super(bibNumber, entryFee, category);
+        this.sponsorBonus = sponsorBonus;
+    }
+
+    public double getSponsorBonus() {
+        return sponsorBonus;
+    }
+
+    @Override
+    public String announce() {
+        return "Elite Runner | Bib: " + bibNumber + " | Category: " + getCategory() + " | Sponsor Bonus: " + sponsorBonus + " | Balance: " + balanceDue;
+    }
+}
