@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 20-09-2026
+**Today's Work:**
+- Created feature/session_7 branch from develop.
+- Solved all 5 Category A class practice problems in abstraction_interface.class_problems:
+  - Problem 1: Abstract PaymentMethod base class with auto-incremented final transaction ID, compile-time overloaded processPayment, CreditCardPayment and CashPayment specializations, upcasting, and polymorphic confirmation printing.
+  - Problem 2: Alertable capability interface, SecuritySensor concrete base, MotionSensor single inheritance, DualZoneMotionSensor multilevel hierarchy with super.sendAlert() reuse, independent SmokeDetector, batch alert broadcast, and safe instanceof downcasting.
+  - Problem 3: Abstract StaffMember with constructor chaining via this(), encapsulated JavaBean baseSalary with negative value rejection, Auditable interface, TeamLead specialization with super() and bonus computation, and instanceof Auditable check.
+  - Problem 4: Playable interface with overloaded play() methods, MediaFile abstract class with static counter fileId, AudioFile IS-A/CAN-DO implementation, independent Podcast streaming class, and polymorphic launchAll().
+  - Problem 5: LibraryItem abstract base with static item counter and abstract loan period, Renewable and Reservable interfaces, Textbook multi-interface implementation, Magazine single-interface sibling, independent DigitalPass, and general Object instanceof Reservable reservation checker.
+- Completed all Category A assignment problems in abstraction_interface.assigment_problems:
+  - Problem 1: Shape abstract base class with static shapeId counter and overloaded concrete scale() methods (equal and unequal), CircleShape and SquareShape specializations, and polymorphic printArea().
+  - Problem 2: Exportable capability interface, ReportGenerator and UserProfile independent implementations, centralized DataExporter with thread-safe static counter, and polymorphic exportAll().
+  - Problem 3: ServiceableVehicle abstract class with encapsulated mileage and negative validation, Insurable interface, Forklift specialization, HeavyDutyForklift multilevel hierarchy with super.performMaintenance() reuse, and safe Insurable downcasting.
+  - Problem 4: Attackable interface with overloaded attack methods, Defendable interface, GameCharacter abstract class with static counter characterId, Warrior multi-interface implementation, independent Trap entity, and BattleArena polymorphic defense resolution.
+  - Problem 5: HomeDevice abstract class with static serial number tracking, RemoteControllable and EnergyTrackable interfaces, WashingMachine dual-interface implementation, Refrigerator single-interface sibling, independent MobileApp controller, SmartHomePanel batch connector, and safe EnergyTrackable downcasting.
+
+**Next Session Plan:**
+- Deep dive into exception handling, try-catch-finally mechanics, custom exceptions, and robust error management in Session 8.
+
+**Issues Faced:**
+- Properly separating IS-A class inheritance from CAN-DO interface capabilities; handled safe downcasting with instanceof before calling specialized interface and subclass methods.
+
+---
+
 ## Date: 13-09-2026
 **Today's Work:**
 - Created feature/session_6 branch from develop.
