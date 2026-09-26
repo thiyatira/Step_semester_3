@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 26-09-2026
+**Today's Work:**
+- Created feature/session_8 branch from develop.
+- Solved all 5 Category A class practice problems in system_design.class_problems:
+  - Problem 1: Computer-based testing system with immutable Question and MultipleChoiceQuestion models, scoring validation, and ExamAttempt submission lifecycle.
+  - Problem 2: Vehicle rental service featuring Vehicle hierarchy (StandardCar, LuxuryCar), dynamic pricing with distance rate calculations, and safe reservation state management in RentalService.
+  - Problem 3: Hotel booking engine with Room inventory, multi-room Reservation handling, check-in and check-out date range conflict prevention, and HotelBookingManager operations.
+  - Problem 4: Employee leave management system with Employee models, LeaveRequest lifecycle tracking, and status transitions across LeaveStatus states.
+  - Problem 5: Campus cafeteria online food ordering platform with LineItem billing, IPaymentMethod strategy (CreditCardPayment, DigitalWalletPayment), Order state tracking, and itemized billing.
+- Completed all Category A assignment problems in system_design.assigment_problems:
+  - Problem 1: Hackathon judging and registration desk featuring Team registration constraints, ScoringTrack strategies (InnovationTrack, OpenTrack), dynamic scoring, and post-publish score lock.
+  - Problem 2: SwiftShip parcel tracker implementing strict status state machine (BOOKED, PICKED_UP, IN_TRANSIT, OUT_FOR_DELIVERY, DELIVERED), shipping charge strategies (StandardShipping, ExpressShipping, FragileShipping), and observer notifications (SmsChannel, EmailChannel).
+  - Problem 3: Smart lab control panel featuring composition over inheritance using Capability interface (PowerCapability, BrightnessCapability, TemperatureCapability), SmartDevice dynamic capabilities, range validation, and batch Scene execution.
+  - Problem 4: Elective enrollment seat rush system with student credit policies (RegularStudent, HonorsStudent, ExchangeStudent), FIFO waitlist management, and atomic promotion upon seat vacancy.
+  - Problem 5: Campus canteen smart prepaid card with balance invariant, PricingPlan strategies (DayScholarPlan, HostellerPlan, StaffPlan), audit transaction logging, and single-use refund guarantees.
+
+**Next Session Plan:**
+- Explore advanced software architecture patterns, design principles, and real-world system modeling in Session 9.
+
+**Issues Faced:**
+- Managing strict finite state transitions and ensuring atomic waitlist promotion without exceeding credit limits.
+
+---
+
 ## Date: 20-09-2026
 **Today's Work:**
 - Created feature/session_7 branch from develop.
