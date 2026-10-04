@@ -1,5 +1,29 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 04-10-2026
+**Today's Work:**
+- Created feature/session_9 branch from develop.
+- Solved all 5 Category A class practice problems in data_structures.class_problems:
+  - Problem 1: Pair sum reconciliation on sorted account balances using optimal two-pointer technique in O(n) time and O(1) space.
+  - Problem 2: Warehouse floor layout grid scanner calculating total item volume and localizing first peak bin coordinates in row-major order.
+  - Problem 3: Library catalog ISBN lookup leveraging logarithmic binary search over pre-sorted book records.
+  - Problem 4: Range-bounded catalog ISBN search identifying lower and upper search boundaries and retrieving matching titles.
+  - Problem 5: Fixed-window sliding subarray maximum sum calculator tracking highest consecutive sales in O(n) linear time.
+- Completed all Category A assignment problems in data_structures.assigment_problems:
+  - Problem 1: Shopping mall footfall range reporter using 1D prefix sum arrays to answer queries in O(1) time.
+  - Problem 2: Longest budget-friendly streak finder using variable-size sliding window with non-negative monotonicity.
+  - Problem 3: Net-balance period counter computing contiguous transaction subarrays with exact net sum k using prefix sum hash maps.
+  - Problem 4: University exam score band counter using dual binary search boundaries (lower bound and strictly upper bound).
+  - Problem 5: Spiral warehouse stock audit route navigating 2D rectangular bin matrices in clockwise spiral order.
+
+**Next Session Plan:**
+- Explore advanced sorting algorithms, time/space trade-offs, and comparison-based vs non-comparison sorting in Session 10.
+
+**Issues Faced:**
+- Handling negative transaction numbers in subarray sum problems where variable sliding window fails due to loss of monotonicity, resolving it via prefix sum frequency hashing in O(n) time.
+
+---
+
 ## Date: 26-09-2026
 **Today's Work:**
 - Created feature/session_8 branch from develop.
