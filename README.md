@@ -1,6 +1,31 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 11-10-2026
+**Today's Work:**
+- Created feature/session_10 branch from develop.
+- Solved all 5 Category A class practice problems in data_structures.class_problems:
+  - Problem 1: Smart Home Platform — capability-based device command dispatch using `Dimmable`, `Schedulable`, and `EnergyMonitorable` interfaces with `instanceof` guards.
+  - Problem 2: Customer Registry — `equals()` and `hashCode()` equality contract enabling `HashSet`-based deduplication of customers across branches.
+  - Problem 3: Student Marks Grid — 2D array structure for tracking subject-wise marks with missing-mark padding, total computation, and per-subject topper reporting.
+  - Problem 4: Product Price Finder — `lowerBound` and `upperBound` binary search variants for O(log n) inclusive range counting on sorted price arrays.
+  - Problem 5: Library Platform — sorted-array resource store with binary-search `find`, capability-dispatched `reserve`/`download`, and duplicate rejection.
+- Completed all 5 Category A assignment problems in data_structures.assigment_problems:
+  - Problem 1 (A1): Cancelling the k-th Last Order — single-pass two-pointer technique removing the k-th-from-end node via a dummy head in O(n) time O(1) space.
+  - Problem 2 (A2): Campus Portal Browser History — doubly linked list supporting O(1) `visit` with forward-history truncation, and O(steps) `back`/`forward` navigation.
+  - Problem 3 (A3): Merging Two Ticket Counters — in-place sorted linked list merge by relinking existing nodes in O(m+n) time O(1) space (one dummy node).
+  - Problem 4 (A4): Palindrome Train Code — O(n)/O(1) palindrome check by reversing the second half in-place and fully restoring the list before returning.
+  - Problem 5 (A5): Polynomial Calculator — merge of two descending-exponent term lists with coefficient summation and zero-term elimination in O(m+n).
+
+**Next Session Plan:**
+- Explore advanced sorting algorithms, time/space trade-offs, and comparison-based vs non-comparison sort in Session 11.
+
+**Issues Faced:**
+- Assignment problems arrived as 5 separate PDFs; adapted workflow to produce 5 individual assignment submission documents (Week10_A1 through Week10_A5) alongside the standard practice document.
+
+---
+
 ## Date: 04-10-2026
+
 **Today's Work:**
 - Created feature/session_9 branch from develop.
 - Solved all 5 Category A class practice problems in data_structures.class_problems:
