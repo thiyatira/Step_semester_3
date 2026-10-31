@@ -1,5 +1,30 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 31-10-2026
+**Today's Work:**
+- Created feature/session_11 branch from develop.
+- Solved all 5 Category A class practice problems in data_structures.class_problems:
+  - Problem 1: Remove the N-th Node From the End — fast/slow pointers with a dummy head so removing the original head needs no special case, single pass.
+  - Problem 2: Linked List Palindrome — find the middle, reverse the second half in place, compare, then restore the list, O(1) extra space.
+  - Problem 3: Add Two Numbers as Linked Lists — digit-by-digit addition with carry over reverse-ordered lists of different lengths.
+  - Problem 4: Intersection Node — length difference alignment and reference comparison to find the first shared node in O(1) space.
+  - Problem 5: Reorder List — middle split, in-place reversal of the second half and alternate merge by relinking next pointers only.
+- Completed all 5 Category A assignment problems in data_structures.assigment_problems:
+  - Problem 1 (A1): Canteen Price Streak — monotonic stack of indices giving the streak for every day in O(n).
+  - Problem 2 (A2): Hackathon Banner Printer — nested k[text] expansion using a count stack and a text stack without recursion.
+  - Problem 3 (A3): Quiz Scoring Formula — single-scan evaluator with an operand stack and an operator stack handling precedence and brackets.
+  - Problem 4 (A4): Bus Bay Ring — double-ended ring buffer on a fixed int array with front and size tracking, all operations O(1).
+  - Problem 5 (A5): Fire Drill Exits — multi-source BFS starting from all exits at once to get the shortest exit distance for every room.
+
+**Next Session Plan:**
+- Continue with the next data structures topic in Session 12.
+
+**Issues Faced:**
+- Practice set (linked lists) and assignment set (stacks and queues) came from different topics this week, so both were kept under data_structures. Moving the ring buffer front backwards needed (front - 1 + capacity) % capacity to avoid a negative index.
+
+---
+
+
 ## Date: 11-10-2026
 **Today's Work:**
 - Created feature/session_10 branch from develop.
