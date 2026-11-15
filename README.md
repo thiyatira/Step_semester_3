@@ -1,5 +1,30 @@
 # Step Semester 3 — Daily Progress Log
 
+## Date: 15-11-2026
+**Today's Work:**
+- Created feature/session_12 from develop.
+- Completed five practice problems in week12.class_problems:
+  - Order walkthrough using a static nested line item and member cursor.
+  - Ride fare calculation using polymorphism for autos, cabs and bikes.
+  - Round-robin lab scheduling with a queue and completion times.
+  - Campus pins demonstrating field hiding and overridden method dispatch.
+  - Placement shortlist with stable merge sort, best score intervals, binary search and pair search.
+- Completed five assignments in week12.assigment_problems:
+  - Delivery route loop detection with Floyd's pointers and cycle length.
+  - In-place reversal of complete exam script batches without allocating nodes.
+  - Recent pages cache using a hash map and doubly linked list.
+  - Stable merge sort for linked library returns by due day.
+  - Token palindrome check that restores the original links.
+- Compiled the solutions, ran all examples, and checked edge cases and large lists.
+
+**Next Session Plan:**
+- Continue with the next curriculum topic and its practice and assignment problems.
+
+**Issues Faced:**
+- The shortlist example allows temporary score drops within its best climb; the solution maximizes the net gain across an interval and keeps the earliest interval on ties.
+
+---
+
 ## Date: 31-10-2026
 **Today's Work:**
 - Created feature/session_11 branch from develop.
